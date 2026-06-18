@@ -1,0 +1,5 @@
+dataset,model,selected_feature_set,train_f1,validation_f1,f1_gap,abs_f1_gap,tie_break_reason
+finance,LogisticRegression,full,0.5779467680608364,0.5851063829787234,-0.0071596149178869695,0.0071596149178869695,best validation_f1
+finance,RandomForest,set_A_wrapper,1.0,0.4461538461538462,0.5538461538461539,0.5538461538461539,best validation_f1
+medical,LogisticRegression,full,0.5438066465256798,0.5688073394495413,-0.025000692923861534,0.025000692923861534,best validation_f1
+medical,RandomForest,set_C_hybrid,1.0,0.32653061224489793,0.6734693877551021,0.6734693877551021,best validation_f1

@@ -1,0 +1,76 @@
+{
+  "medical": {
+    "set_A_wrapper": [
+      "num__age",
+      "num__cholesterol",
+      "num__systolic_bp",
+      "num__physical_activity_hours",
+      "num__glucose",
+      "cat__smoking_status_never",
+      "num__bmi",
+      "num__stress_level",
+      "num__resting_heart_rate",
+      "cat__smoking_status_former"
+    ],
+    "set_B_tree": [
+      "num__cholesterol",
+      "num__diastolic_bp",
+      "num__systolic_bp",
+      "num__age",
+      "num__physical_activity_hours",
+      "num__alcohol_units_weekly",
+      "num__glucose",
+      "num__resting_heart_rate",
+      "num__bmi",
+      "cat__sex_male"
+    ],
+    "set_C_hybrid": [
+      "num__age",
+      "num__cholesterol",
+      "num__systolic_bp",
+      "num__physical_activity_hours",
+      "num__glucose",
+      "num__bmi",
+      "num__resting_heart_rate",
+      "cat__smoking_status_never",
+      "num__stress_level",
+      "cat__smoking_status_former"
+    ]
+  },
+  "finance": {
+    "set_A_wrapper": [
+      "num__annual_income",
+      "num__credit_score",
+      "cat__previous_default_yes",
+      "num__utilization_ratio",
+      "num__loan_to_income",
+      "num__savings_balance",
+      "num__delinquency_count",
+      "cat__housing_status_mortgage",
+      "num__employment_years",
+      "num__loan_amount"
+    ],
+    "set_B_tree": [
+      "num__loan_to_income",
+      "num__annual_income",
+      "num__loan_amount",
+      "num__credit_score",
+      "num__utilization_ratio",
+      "cat__housing_status_mortgage",
+      "num__savings_balance",
+      "cat__previous_default_no",
+      "num__delinquency_count",
+      "num__age"
+    ],
+    "set_C_hybrid": [
+      "num__annual_income",
+      "num__credit_score",
+      "num__utilization_ratio",
+      "num__loan_to_income",
+      "num__savings_balance",
+      "num__delinquency_count",
+      "cat__housing_status_mortgage",
+      "num__loan_amount"
+    ]
+  }
+}

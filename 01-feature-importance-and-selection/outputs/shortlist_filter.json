@@ -1,0 +1,36 @@
+{
+  "medical": [
+    "num__age",
+    "num__cholesterol",
+    "num__systolic_bp",
+    "num__glucose",
+    "num__physical_activity_hours",
+    "num__stress_level",
+    "num__diastolic_bp",
+    "num__resting_heart_rate",
+    "num__bmi",
+    "cat__smoking_status_never",
+    "cat__sex_female",
+    "cat__sex_male",
+    "num__alcohol_units_weekly",
+    "cat__smoking_status_former",
+    "cat__smoking_status_current"
+  ],
+  "finance": [
+    "num__loan_to_income",
+    "num__annual_income",
+    "num__credit_score",
+    "num__loan_amount",
+    "num__delinquency_count",
+    "num__utilization_ratio",
+    "cat__previous_default_yes",
+    "cat__previous_default_no",
+    "num__age",
+    "num__employment_years",
+    "num__savings_balance",
+    "cat__housing_status_rent",
+    "num__open_credit_lines",
+    "cat__housing_status_mortgage",
+    "cat__employment_type_salaried"
+  ]
+}
